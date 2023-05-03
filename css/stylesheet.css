@@ -15,9 +15,52 @@ nav{
     
 }
 
-@media screen {
+@media (max-width:767px) {
+nav ul{
+    display: none;
+}
+nav .toggle:hover + ul {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute ;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    background-color: rgb(255, 254, 254);
+    gap:5rem;
+}
+.img{
+    order: -1;
+}
+.detils{
+    display: flex;
+    flex-direction:column ;
+}
+
+
+.all{
+    display: flex;
+    flex-direction: column;
     
 }
+.col1{
+    width: 100%;
+}
+}
+header{
+    padding: 19px;
+    position: relative;
+    z-index: 999;
+    width: 100%;
+}
+
+
+
+
+
 header  nav ul li{
     list-style: none;
     display: inline-block;
@@ -199,6 +242,17 @@ padding: 40px 3%;
       color: rgb(108, 215, 234);
     }
 
+@media (min-width:768px) {
+    nav .toggle{
+        display: none;
+    }
+}
+   
 
-
-  
+@media (max-width:767px) {
+ 
+    .col1{
+        display: block;
+    }
+    
+    }
