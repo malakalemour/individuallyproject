@@ -1,0 +1,204 @@
+*{
+    margin:  0;
+    padding:0 ;
+    box-sizing:border-box;
+}
+header{
+    margin: 20px;
+    padding: 20px 3%;
+   
+}
+nav{
+    float: right;
+    display: flex;  
+    justify-content: space-between;
+    
+}
+
+@media screen {
+    
+}
+header  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+header  nav ul li a{
+text-decoration: none;
+}
+a:hover{
+color: rgb(255, 17, 0);
+
+    
+}
+.detils{
+    margin: 20px;
+    padding: 50px 10%;
+    display: flex;
+justify-content: space-around;
+  
+}
+.img img {
+
+    border-radius: 50%;
+    box-shadow:5px 5px  #ebeef0 ;
+    }
+
+.img{
+    float: right;
+  
+    /* مس هان عملت هفر لصور بس حطيتوا بكومنت مشان احل زي المشروع بالضبط */
+  /* display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 200px; */
+}
+/* .img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+}
+ .img:hover img{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+} */ 
+
+.information{
+    float: left;
+    line-height: 1.5;
+}
+
+.hero{
+    border: none;
+    margin: 20px auto;
+    padding:10px ;
+    background-color: #FF6464;
+    border-radius: 5px;
+}
+.hero:hover{
+    background-color: rgb(233, 239, 231);
+}
+.link p{
+   float: left;
+   margin-left: 50px;
+}
+.link a{
+    float: right;
+    color: rgb(0, 162, 255);
+
+}
+.link a:hover{
+    color: rgb(255, 10, 10);
+}
+
+.featr h1 a {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    
+}
+.featr h1 a:hover{
+color: rgb(240, 246, 234);
+}
+.featr h1{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+.featr p{
+    line-height: 1.1;
+    
+}
+.all{
+   
+    display: flex;
+    justify-content:flex-start;
+}
+.content{
+    background-color:#EDF7FA;
+    margin: 20px auto;
+    padding: 50px 10%;
+}
+.col1{
+background-color: azure;
+width: 48%;
+margin: 30px auto;
+padding: 40px 3%;
+} 
+.col1 p{
+    margin-bottom: 20px;
+}
+
+.col1 h1{
+    margin-bottom: 20px;
+}
+
+
+    .button{
+        display: flex;
+     margin: 15px;
+    padding: 10px;
+    justify-content:flex-start;
+
+    }
+    .button p{
+        margin: 9px;
+        color:rgb(96, 97, 97)
+
+    }
+    .button p:hover{
+        color: #FF6464;
+    }
+    .button  button{
+        border: none;
+        border-radius: 20px;
+       background-color: #142850;
+       color: rgb(232, 232, 238);
+       padding: 10px 16px;
+       margin-right: 20px;
+    }
+    .button  button:hover{
+        background-color: rgb(227, 212, 227);
+    }
+    hr{
+        width: 900px;
+    }
+    .featr{
+    margin: 20px auto;
+    padding: 50px 10%;
+    }
+    .alls{
+    display: flex;
+    justify-content:flex-start;
+    
+    }
+    .imgs img{
+        border-radius: 10px;
+    }
+    .paragrph{
+     margin-left: 30px;
+     margin-bottom: 50px;
+    }
+    .paragrph h1{
+        margin-bottom: -15px;
+    }
+    footer{
+       text-align: center;
+        margin-bottom: 80px;
+    }
+    i{
+        font-size:200%;
+       margin-left:20px ;
+       margin-bottom: 20px;
+    }
+    i:hover{
+      color: rgb(108, 215, 234);
+    }
+
+
+
+  
